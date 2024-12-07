@@ -11,11 +11,11 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 
 # List of allowed Telegram user IDs (replace with actual IDs)
-ALLOWED_USERS = [123456789, 987654321]  # Replace with your Telegram ID
+ALLOWED_USERS = [6992545165]  # Replace with your Telegram ID
 
 # Load environment variables
 load_dotenv()
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('7573725898:AAHm_7E8RP2XpNuUCRgawKbqLTgxZP2K7ec')
 
 # Configure Chrome options for Selenium
 chrome_options = Options()
